@@ -3,6 +3,7 @@ import axios from "axios";
 import styled from "styled-components";
 
 const StyledFieldset = styled.fieldset`
+    margin-top: 4rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;

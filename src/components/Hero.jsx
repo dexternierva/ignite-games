@@ -46,7 +46,6 @@ const StyledHeroImg = styled.div``;
 
 const StyledHeadline = styled.h1`
     display: block;
-    margin-bottom: 2rem;
     color: rgba(236, 240, 241);
     font-size: 40px;
     font-weight: bold;
@@ -58,12 +57,22 @@ const StyledHeadline = styled.h1`
     }
 `;
 
+const StyledSubheader = styled.h2`
+    margin-top: 0;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+`;
+
 function Hero ({setSearchResults}) {
     return (
         <StyledBackground>
             <StyledHeroOuter>
                 <StyledHeroContent>
-                    <StyledHeadline href="#">New and <br />Upcoming Games</StyledHeadline>
+                    <StyledHeadline href="#">Ignite Games</StyledHeadline>
+                    <StyledSubheader>New and Upcoming Games</StyledSubheader>
                     <Search setSearchResults={setSearchResults}/>
                 </StyledHeroContent>
                 <StyledHeroImg>
