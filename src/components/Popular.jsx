@@ -88,7 +88,7 @@ function Popular ({ setModalData, setModalState }) {
     if (popular.length < 10) <h1>Loading...</h1>
 
     const base_url = "https://api.rawg.io/api/";
-    const key_url = `key=1cc0229833854e9da5bf1094434c8f2d`;
+    const key_url = `key=37e62e281031468882765dbce79cef8d`;
 
     const fetchData = (id) => {
         axios
