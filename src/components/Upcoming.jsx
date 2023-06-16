@@ -79,7 +79,7 @@ function Upcoming ({ setModalData, setModalState }) {
 
     if (upcoming.length < 10) <h1>Loading...</h1>
 
-    const base_url = "https://api.rawg.io/api/";
+    const base_url = "https://thingproxy.freeboard.io/fetch/https://api.rawg.io/api/";
     const key_url = `key=1cc0229833854e9da5bf1094434c8f2d`;
 
     const fetchData = (id) => {
