@@ -35,7 +35,7 @@ function useGames() {
             try {
                 const response = await axios.get('https://api.rawg.io/api/games', {
                     params: {
-                        key: 'cde73646e2584007ab3cc0aabb730e46',
+                        key: '1cc0229833854e9da5bf1094434c8f2d',
                         ordering: '-rating',
                         page_size: 10,
                     },
@@ -50,7 +50,7 @@ function useGames() {
             try {
                 const response = await axios.get('https://api.rawg.io/api/games', {
                     params: {
-                        key: 'cde73646e2584007ab3cc0aabb730e46',
+                        key: '1cc0229833854e9da5bf1094434c8f2d',
                         dates: `${currentDate},${nextYear}`,
                         ordering: '-added',
                         page_size: 10,
